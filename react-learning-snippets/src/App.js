@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import GetData from './GetData';
-import CloseModal from './CloseModal';
-import Promise2 from './Promise2';
+
 function App() {
   return (
     <div className="App">
@@ -19,9 +17,6 @@ function App() {
         >
           Learn React
         </a>
-        <GetData/>
-       < CloseModal/>
-       <Promise2/>
       </header>
     </div>
   );
